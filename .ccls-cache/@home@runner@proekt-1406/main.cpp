@@ -35,7 +35,7 @@ void displayMenu() {
 }
 
 void printCheck(Dish dish) { 
-    cout << fixed << setprecision(2); 
+    cout << fixed << setprecision(5); 
     cout << "Ви обрали: " << dish.name << endl;
     cout << "Вартість: " << dish.price << " грн" << endl;
     cout << "Дякую за замовлення!" << endl;
